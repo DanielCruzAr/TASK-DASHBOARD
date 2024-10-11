@@ -23,7 +23,7 @@ const CollapsibleMenu = () => {
                 <div className="flex items-center justify-between space-x-4">
                     <CubeTransparentIcon className="h-6 w-6" />
                     <h4 className="text-sm font-semibold">
-                        App Integrations (4)
+                        Integrations (4)
                     </h4>
                     <CollapsibleTrigger asChild>
                         <Button variant="ghost" size="sm">

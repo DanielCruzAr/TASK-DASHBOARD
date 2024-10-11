@@ -54,8 +54,8 @@ const SideBar = () => {
     return (
         <div className="relative flex flex-col w-1/4 py-10 px-4 border-r-2 border-opacity-30">
             <div className="flex space-x-2 mb-14 items-center text-primary">
-                <GridIcon className="h-6 w-6" />
-                <h1 className="text-xl">Task Manager Dashboard</h1>
+                <GridIcon className="h-6 w-6 font-bold" />
+                <h1 className="text-xl font-bold">Task Manager Dashboard</h1>
             </div>
             <div className="flex flex-col gap-4 border-b-2 pb-4">
                 <SearchBar onSearch={handleSearch} />
